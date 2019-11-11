@@ -10,7 +10,7 @@ class App extends Component {
       <Provider store={store}>
         <div className="App">
           <h1>
-            App
+            TodoList
           </h1>
           <TodoList />
         </div>

@@ -11,7 +11,7 @@ const TodoList = ({ todos, addTodo }) => (
             todos.map(todo => (
                 <li key={todo.id}>{todo.text}</li>
             ))}
-        <button onClick={() => addTodo('Fazer café')}>Novo todo</button>
+        <button onClick={() => addTodo('Fazer café')}>Selecionar</button>
     </ul>
 );
 
